@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee | AI Builder & Brand Engineer</title>
+    <meta name="description" content="A personal brand website and AI agent for Bee, an AI builder focused on products, systems, and digital presence." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="background-glow"></div>
+    <header class="hero">
+      <nav class="topbar">
+        <a href="#home" class="brand">Bee</a>
+        <div class="nav-links">
+          <a href="#stack">AI Stack</a>
+          <a href="#work">Work</a>
+          <a href="#agent">Agent</a>
+        </div>
+      </nav>
+
+      <section id="home" class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Builder • Product Thinker • Brand Engineer</p>
+          <h1>I turn AI ideas into polished products and a credible personal brand.</h1>
+          <p class="subtext">
+            I help people move from curiosity to clarity by building useful agents, fast websites,
+            and a strong digital presence that compounds over time.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#agent">Meet the agent</a>
+            <a class="button secondary" href="#work">See the work</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Focus areas</h3>
+          <ul>
+            <li>LLM product design</li>
+            <li>Agent workflows</li>
+            <li>Landing pages and personal branding</li>
+            <li>Fast iteration with modern tools</li>
+          </ul>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="stack" class="panel">
+        <div class="section-heading">
+          <p class="eyebrow">AI Stack</p>
+          <h2>Built for modern AI shipping.</h2>
+        </div>
+        <div class="chips">
+          <span>Prompt Engineering</span>
+          <span>LLM Apps</span>
+          <span>RAG</span>
+          <span>Agents</span>
+          <span>TypeScript</span>
+          <span>Node.js</span>
+          <span>Python</span>
+          <span>Vercel</span>
+        </div>
+      </section>
+
+      <section id="work" class="panel grid">
+        <article class="card">
+          <h3>Personal Brand Site</h3>
+          <p>A sharp, credible online home that signals expertise and makes it easy for people to connect.</p>
+        </article>
+        <article class="card">
+          <h3>Personal Agent</h3>
+          <p>An always-on assistant that explains the work, the stack, and how to collaborate with me.</p>
+        </article>
+        <article class="card">
+          <h3>Product Mindset</h3>
+          <p>Focused on real use cases, fast feedback, and shipping something useful before it becomes overbuilt.</p>
+        </article>
+      </section>
+
+      <section id="agent" class="panel agent-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Personal Agent</p>
+          <h2>Ask Bee anything about the stack or the brand.</h2>
+        </div>
+        <div class="chat-shell">
+          <div id="chat-log" class="chat-log">
+            <div class="bubble bot">Hello! I’m Bee. Ask me about my AI stack, my approach to building, or how to start your own agent project.</div>
+          </div>
+          <form id="chat-form" class="chat-form">
+            <input id="chat-input" type="text" placeholder="Ask about my stack, work, or brand..." autocomplete="off" />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "bee-ai-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal AI brand website and agent for Bee",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
